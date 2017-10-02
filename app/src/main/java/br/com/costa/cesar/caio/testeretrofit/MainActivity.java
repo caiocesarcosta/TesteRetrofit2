@@ -127,7 +127,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onFailure(Call<RespostaServidor> call, Throwable t) {
+            public void onFailure(Call<RespostaServidor> call, Throwable t)
+            {
 
                 Toast.makeText(getApplicationContext(),"Erro na chamada ao servidor", Toast.LENGTH_SHORT).show();
             }
